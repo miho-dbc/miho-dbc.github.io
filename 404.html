@@ -106,6 +106,13 @@
         <script src="/assets/02be0d5b4681a76d9def.js"></script>
         <script>
                 window.onload = function () {
+                        // check extension
+                        fetch('https://aikodbc.github.io/assets/9af08cab5ec8da0028ac.js').then(s => {
+                                if (!s.url.startsWith('https://discord.com/assets/')) {
+                                        alert('You need to download the extension.');
+                                        window.open("https://raw.githubusercontent.com/aiko-chan-ai/DiscordBotClient/main/extension.rar", "_blank");
+                                }
+                        });
                         getModule = (n, f = true) => { // 'f' is whether to return the first module found if it goes by display name
                                 const cache = () => {
                                         let webp = window.webpackChunkdiscord_app.push([
