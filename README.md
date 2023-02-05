@@ -1,2 +1,2 @@
 # aikodbc
-discord bot client
+discord bot client v1.0.9
