@@ -1,2 +1,2 @@
-# aikodbc
-discord bot client v1.0.9
+# You need a plugin to make dbс work!
+https://github.com/mishan-ya/dbc-plugin
